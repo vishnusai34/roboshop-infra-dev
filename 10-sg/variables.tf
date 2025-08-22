@@ -18,3 +18,12 @@ variable "frontend_sg_description" {
   
 }
 
+variable "bastian_sg_name" {
+    default = "bastian"
+  
+}
+
+variable "bastian_sg_description" {
+    default = "created sg for bastian server"
+  
+}
